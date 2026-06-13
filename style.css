@@ -195,25 +195,3 @@ body{
         font-size:28px;
     }
 }
-
-.github-view-button{
-    display:flex !important;
-    justify-content:center;
-    align-items:center;
-    gap:8px;
-    width:100%;
-    margin-top:12px;
-    padding:16px;
-    text-decoration:none;
-    border-radius:16px;
-    color:white;
-    font-size:15px;
-    font-weight:700;
-    background:linear-gradient(135deg, #f472b6, #818cf8);
-    box-shadow:0 12px 25px rgba(129,140,248,.25);
-    transition:.2s;
-}
-
-.github-view-button:hover{
-    transform:translateY(-2px);
-}
