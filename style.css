@@ -147,13 +147,19 @@ body{
     color:white;
 }
 
-.portfolio-button{
+.button-area{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin-top:28px;
+}
+
+.link-button{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:8px;
     width:100%;
-    margin-top:28px;
     padding:16px;
     text-decoration:none;
     border-radius:16px;
@@ -165,11 +171,7 @@ body{
     transition:.2s;
 }
 
-.github-button{
-    margin-top:12px;
-}
-
-.portfolio-button:hover{
+.link-button:hover{
     transform:translateY(-2px);
 }
 
