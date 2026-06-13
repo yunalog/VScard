@@ -5,7 +5,7 @@ document.querySelectorAll(".copy-btn").forEach((button) => {
 
             const original = button.textContent;
 
-            button.textContent = "완료";
+            button.textContent = "완료❕";
             button.classList.add("copied");
 
             setTimeout(() => {
