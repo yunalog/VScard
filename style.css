@@ -154,16 +154,19 @@ body{
     margin-top:28px;
 }
 
-.link-button{
-    display:flex;
+/* 버튼 클래스 통합 */
+.link-button,
+.portfolio-button,
+.github-view-button{
+    display:flex !important;
     justify-content:center;
     align-items:center;
     gap:8px;
     width:100%;
     padding:16px;
-    text-decoration:none;
+    text-decoration:none !important;
     border-radius:16px;
-    color:white;
+    color:white !important;
     font-size:15px;
     font-weight:700;
     background:linear-gradient(135deg, #f472b6, #818cf8);
@@ -171,7 +174,9 @@ body{
     transition:.2s;
 }
 
-.link-button:hover{
+.link-button:hover,
+.portfolio-button:hover,
+.github-view-button:hover{
     transform:translateY(-2px);
 }
 
